@@ -7,7 +7,9 @@ my_hash_creator("name", "Grace Hopper")
 def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
   if hash[key]
-    value = key
+    value = hash[key]
+  else
+    puts "Key not found!"
 end
 
 def update_counting_hash(hash, key)
