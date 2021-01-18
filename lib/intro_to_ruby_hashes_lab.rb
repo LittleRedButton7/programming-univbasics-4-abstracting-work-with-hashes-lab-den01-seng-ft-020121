@@ -10,6 +10,7 @@ def read_from_hash(hash, key)
     value = hash[key]
   else
     puts "Key not found!"
+  end
 end
 
 def update_counting_hash(hash, key)
